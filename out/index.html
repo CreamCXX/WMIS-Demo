@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>出库管理 &middot; WMIS Demo</title>
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" type="text/css" href="../assets/css/font-awesome.min.css">
+
+  <!-- Semantic UI CSS -->
+  <link rel="stylesheet" type="text/css" href="../assets/semantic/semantic.min.css">
+
+  <!-- Customized CSS -->
+  <link rel="stylesheet" type="text/css" href="../assets/css/customize.css">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+  <link rel="icon" href="../favicon.ico">
+
+</head>
+<body>
+
+  <div class="ui stackable inverted large menu">
+    <div class="ui container">
+      <a href="../" class="header item"><i class="big cubes icon"></i>WMIS Demo</a>
+      <a href="../" class="item"><i class="home icon"></i>首页</a>
+      <a href="../in/" class="item"><i class="sign in icon"></i>入库管理</a>
+      <a href="../out/" class="active item"><i class="sign out icon"></i>出库管理</a>
+      <a href="../trans/" class="item"><i class="exchange icon"></i>移库管理</a>
+      <a href="../check/" class="item"><i class="tasks icon"></i>盘点管理</a>
+      <a href="mailto:c@creamcxx.com?subject=From WMIS Demo" class="item right"><i class="at icon"></i>联系</a>
+    </div>
+  </div>
+
+  <div id="main" class="ui main text container">
+    <h1 class="ui dividing header">出库信息</h1>
+    <form id="out-form" accept="./out/" method="GET" class="ui equal width form segment">
+      <div class="fields">
+        <div class="field">
+          <label>出库商品</label>
+          <input type="text" name="v1" value="苹果">
+        </div>
+        <div class="field">
+          <label>出库数量</label>
+          <input type="text" name="v2" value="5箱">
+        </div>
+      </div>
+      <div class="fields">
+        <div class="field">
+          <label>出库原因</label>
+          <input type="text" name="v3" value="销售">
+        </div>
+        <div class="field">
+          <label>需求部门</label>
+          <input type="text" name="v4" value="销售部">
+        </div>
+      </div>
+      <div class="ui divider"></div>
+      <div class="fields">
+        <div class="field">
+          <label>库区温度</label>
+          <input type="text" name="v5" value="1摄氏度">
+        </div>
+        <div class="field">
+          <label>库区湿度</label>
+          <input type="text" name="v6" value="90%">
+        </div>
+      </div>
+      <div class="ui divider"></div>
+      <div class="field">
+        <label>操作人员</label>
+        <input type="text" name="v7" value="潇潇">
+      </div>
+      <input type="submit" class="ui primary button" value="提交">
+    </form>
+  </div>
+
+  <div class="ui inverted footer segment">
+    <div class="ui center aligned container">
+      <p><i class="huge cubes icon"></i></p>
+      <p>Warehouse Management Information System (Demo)</p>
+      <div class="ui horizontal inverted small divided link list">
+        <!-- Powered by -->
+        <a class="item" href="http://semantic-ui.com/" target="_blank">Semantic UI</a>
+        <a class="item" href="http://fontawesome.io/" target="_blank">Font Awesome</a>
+        <a class="item" href="http://jquery.com/" target="_blank">jQuery</a>
+        <a class="item" href="http://flask.pocoo.org/" target="_blank">Flask</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script language="JavaScript" type="text/javascript" src="../assets/js/jquery-3.0.0.min.js"></script>
+  <script language="JavaScript" type="text/javascript" src="../assets/js/jquery-migrate-3.0.0.min.js"></script>
+
+  <!-- Semantic UI JS -->
+  <script language="JavaScript" type="text/javascript" src="../assets/semantic/semantic.min.js"></script>
+
+  <!-- Visualize -->
+  <script language="JavaScript" type="text/javascript" src="../visualize/out.js"></script>
+</body>
+
+</html>
