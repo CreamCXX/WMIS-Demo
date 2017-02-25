@@ -1,0 +1,9 @@
+<div class="ui inverted footer segment">
+  <div class="ui center aligned container">
+    <p><i class="huge cubes icon"></i></p>
+    <p>{{ site.description }}</p>
+    <div class="ui horizontal inverted small divided link list">
+      {% for item in site.data.powered_by %}<a class="item" href="{{ item.url }}">{{ item.name }}</a>{% endfor %}
+    </div>
+  </div>
+</div>

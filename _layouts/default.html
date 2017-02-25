@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta name="generator" content="Jekyll v{{ jekyll.version }}">
+  {% seo %}
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/{{ site.version.semantic_ui }}/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/{{ site.version.font_awesome }}/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/css/customize.css' | relative_url }}">
+  <link rel="apple-touch-icon" type="image/png" href="{{ '/apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+</head>
+<body>
+  {% include header.html %}
+  {{ content }}
+  {% include footer.html %}
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/{{ site.version.jquery }}/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/{{ site.version.semantic_ui }}/semantic.min.js"></script>
+  {% if page.in %}<script type="text/javascript" src="{{ '/visualize/in.js' | relative_url }}"></script>{% endif %}
+  {% if page.out %}<script type="text/javascript" src="{{ '/visualize/out.js' | relative_url }}"></script>{% endif %}
+</body>
+</html>

@@ -1,0 +1,34 @@
+version:
+  jquery: 3.1.1
+  semantic_ui: 2.2.9
+  font_awesome: 4.7.0
+
+repository: hhttps://github.com/iROCKBUNNY/WMIS-Demo
+
+timezone: Asia/Shanghai
+
+name: WMIS Demo
+author: iROCKBUNNY
+author_url: http://irockbunny.com
+organization: TEELAB
+organization_url: http://teelab.net
+description: Warehouse Management Information System (Demo)
+url: http://wmis.creamcxx.com
+contact: c@creamcxx.com
+
+logo: /apple-touch-icon.png
+
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
+
+exclude:
+- .gitignore
+- .travis.yml
+- LICENSE
+- README.md
+- CNAME
+- Gemfile
+- Gemfile.lock
+- script
+- vendor
