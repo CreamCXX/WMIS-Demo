@@ -9,7 +9,7 @@
     {% seo %}
     <link rel="stylesheet" type="text/css" href="//unpkg.com/semantic-ui/dist/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/customize.css' | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/common.css' | relative_url }}">
     <link rel="apple-touch-icon" type="image/png" href="{{ '/apple-touch-icon.png' | relative_url }}">
     <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
   </head>
@@ -19,7 +19,7 @@
     {% include footer.html %}
     <script type="text/javascript" src="//unpkg.com/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="//unpkg.com/semantic-ui/dist/semantic.min.js"></script>
-    {% if page.in %}<script type="text/javascript" src="{{ '/visualize/in.js' | relative_url }}"></script>{% endif %}
-    {% if page.out %}<script type="text/javascript" src="{{ '/visualize/out.js' | relative_url }}"></script>{% endif %}
+    {% if page.in %}<script type="text/javascript" src="{{ '/assets/js/in.js' | relative_url }}"></script>{% endif %}
+    {% if page.out %}<script type="text/javascript" src="{{ '/assets/js/out.js' | relative_url }}"></script>{% endif %}
   </body>
 </html>
