@@ -1,6 +1,7 @@
 repository: hhttps://github.com/iROCKBUNNY/WMIS-Demo
 
 timezone: Asia/Shanghai
+lang: zh_CN
 
 name: WMIS Demo
 author: iROCKBUNNY
