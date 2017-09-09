@@ -3,15 +3,18 @@ repository: hhttps://github.com/iROCKBUNNY/WMIS-Demo
 timezone: Asia/Shanghai
 lang: zh_CN
 
-name: WMIS Demo
+title: WMIS Demo
+description: Warehouse Management Information System (Demo)
+url: http://wmis.creamcxx.com
+
 author: iROCKBUNNY
 author_url: http://irockbunny.com
 organization: TEELAB
 organization_url: http://teelab.net
-description: Warehouse Management Information System (Demo)
-url: http://wmis.creamcxx.com
+
 contact: c@creamcxx.com
 
+image: /apple-touch-icon.png
 logo: /apple-touch-icon.png
 
 plugins:

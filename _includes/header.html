@@ -1,11 +1,11 @@
 <div class="ui stackable inverted large menu">
   <div class="ui container">
-    <a href="{{ '/' | relative_url }}" class="header item"><i class="big cubes icon"></i>{{ site.name }}</a>
+    <a href="{{ '/' | relative_url }}" class="header item"><i class="big cubes icon"></i>{{ site.title }}</a>
     <a href="{{ '/' | relative_url }}" class="{% if page.home %}active {% endif %}item"><i class="home icon"></i>首页</a>
     <a href="{{ '/in/' | relative_url }}" class="{% if page.in %}active {% endif %}item"><i class="sign in icon"></i>入库管理</a>
     <a href="{{ '/out/' | relative_url }}" class="{% if page.out %}active {% endif %}item"><i class="sign out icon"></i>出库管理</a>
     <a href="{{ '/trans/' | relative_url }}" class="{% if page.trans %}active {% endif %}item"><i class="exchange icon"></i>移库管理</a>
     <a href="{{ '/check/' | relative_url }}" class="{% if page.check %}active {% endif %}item"><i class="tasks icon"></i>盘点管理</a>
-    <a href="mailto:{{ site.contact }}?subject=From {{ site.name }}" class="item right"><i class="at icon"></i>联系</a>
+    <a href="mailto:{{ site.contact }}?subject=From {{ site.title }}" class="item right"><i class="at icon"></i>联系</a>
   </div>
 </div>
