@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/iROCKBUNNY/WMIS-Demo.svg?branch=master)](https://travis-ci.org/iROCKBUNNY/WMIS-Demo)
+[![Build Status](https://travis-ci.org/CreamCXX/WMIS-Demo.svg?branch=master)](https://travis-ci.org/CreamCXX/WMIS-Demo)
 [![Website](https://img.shields.io/website-up-down-green-red/http/wmis.creamcxx.com.svg)](http://wmis.creamcxx.com/)
-[![License](https://img.shields.io/github/license/iROCKBUNNY/WMIS-Demo.svg)](/LICENSE)
+[![License](https://img.shields.io/github/license/CreamCXX/WMIS-Demo.svg)](/LICENSE)
 
 # WMIS-Demo
 Warehouse Management Information System (Demo)
