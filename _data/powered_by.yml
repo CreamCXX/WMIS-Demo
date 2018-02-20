@@ -4,9 +4,6 @@
 - name: jQuery
   url: http://jquery.com/
 
-- name: Font Awesome
-  url: http://fontawesome.io/
-
 - name: Jekyll
   url: http://jekyllrb.com/
 
