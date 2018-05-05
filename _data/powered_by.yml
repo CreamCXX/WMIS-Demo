@@ -1,11 +1,11 @@
 - name: Semantic UI
-  url: http://semantic-ui.com/
+  url: https://semantic-ui.com/
 
 - name: jQuery
-  url: http://jquery.com/
+  url: https://jquery.com/
 
 - name: Jekyll
-  url: http://jekyllrb.com/
+  url: https://jekyllrb.com/
 
 - name: GitHub Pages
   url: https://pages.github.com/
